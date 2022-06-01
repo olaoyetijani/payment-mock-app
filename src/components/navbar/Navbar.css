@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4rem auto;
+}
+
+nav a {
+    height: 2rem;
+    width: 6rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: beige;
+    background: rgb(24, 4, 82);
+    border-radius: 5px;
+}
